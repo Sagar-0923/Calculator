@@ -2,7 +2,6 @@ import org.example.Main;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
 public class CalculatorTest {
     private Main calculator;
     @Before
@@ -10,59 +9,36 @@ public class CalculatorTest {
         calculator = new Main();
     }
     @Test
-    public void test_add_positive(){
+    public void test_add() {
         int a = 1;
-        int b = 2;
-        int expectedResult = 3;
-        Assert.assertEquals(expectedResult, calculator.add(a, b));
+        int b = 4;
+        int expectedResult = 5;
+        int result = calculator.add(a,b);
+        Assert.assertEquals(expectedResult, result);
     }
     @Test
-    public void test_add_negative(){
-        int a = 1;
-        int b = 2;
-        int expectedResult = 0;
-        Assert.assertNotEquals(expectedResult, calculator.add(a, b));
+    public void test_subt() {
+        int a = 50;
+        int b = 20;
+        int expectedResult = 30;
+        int result = calculator.subt(a,b);
+        Assert.assertEquals(expectedResult, result);
     }
     @Test
-    public void test_sub_positive(){
+    public void test_mul() {
         int a = 2;
-        int b = 2;
-        int expectedResult = 0;
-        Assert.assertEquals(expectedResult, calculator.sub(a, b));
+        int b = 3;
+        int expectedResult = 6;
+        int result = calculator.mul(a,b);
+        Assert.assertEquals(expectedResult, result);
     }
+
     @Test
-    public void test_sub_negative(){
-        int a = 2;
-        int b = 2;
-        int expectedResult = -1;
-        Assert.assertNotEquals(expectedResult, calculator.sub(a, b));
-    }
-    @Test
-    public void test_mul_positive(){
-        int a = 2;
-        int b = 2;
-        int expectedResult = 4;
-        Assert.assertEquals(expectedResult, calculator.mul(a, b));
-    }
-    @Test
-    public void test_mul_negative(){
-        int a = 2;
-        int b = 2;
-        int expectedResult = 8;
-        Assert.assertNotEquals(expectedResult, calculator.mul(a, b));
-    }
-    @Test
-    public void test_div_positive(){
-        int a = 2;
-        int b = 2;
+    public void test_per() {
+        int a = 10;
+        int b = 3;
         int expectedResult = 1;
-        Assert.assertEquals(expectedResult, calculator.div(a, b));
-    }
-    @Test
-    public void test_div_negative(){
-        int a = 2;
-        int b = 2;
-        int expectedResult = -1;
-        Assert.assertNotEquals(expectedResult, calculator.div(a, b));
+        int result = calculator.per(a,b);
+        Assert.assertEquals(expectedResult, result);
     }
 }

@@ -22,3 +22,27 @@
 
 2023-11-07 23:04:33.180 [main] INFO  org.example.Main - Executing percentile operation for 10 and 3. Result: 1
 
+2023-11-07 23:45:57.788 [main] INFO  org.example.Main - Executing subtraction operation for 50 and 20. Result: 30
+
+2023-11-07 23:45:57.790 [main] INFO  org.example.Main - Executing addition operation for 1 and 4. Result: 5
+
+2023-11-07 23:45:57.791 [main] INFO  org.example.Main - Executing multiplication operation for 2 and 3. Result: 6
+
+2023-11-07 23:45:57.791 [main] INFO  org.example.Main - Executing percentile operation for 10 and 3. Result: 1
+
+2023-11-07 23:54:20.591 [main] INFO  org.example.Main - Executing subtraction operation for 20 and 5. Result: 15
+
+2023-11-07 23:54:20.593 [main] INFO  org.example.Main - Executing addition operation for 10 and 50. Result: 60
+
+2023-11-07 23:54:20.594 [main] INFO  org.example.Main - Executing multiplication operation for 10 and 2. Result: 20
+
+2023-11-07 23:54:20.595 [main] INFO  org.example.Main - Executing percentile operation for 10 and 4. Result: 2
+
+2023-11-07 23:54:25.945 [main] INFO  org.example.Main - Executing subtraction operation for 20 and 5. Result: 15
+
+2023-11-07 23:54:25.947 [main] INFO  org.example.Main - Executing addition operation for 10 and 50. Result: 60
+
+2023-11-07 23:54:25.948 [main] INFO  org.example.Main - Executing multiplication operation for 10 and 2. Result: 20
+
+2023-11-07 23:54:25.948 [main] INFO  org.example.Main - Executing percentile operation for 10 and 4. Result: 2
+
